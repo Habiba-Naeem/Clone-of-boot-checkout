@@ -1,0 +1,117 @@
+header {
+  text-align: center;
+  padding: 3%;
+  padding-bottom: 0%; }
+  header img {
+    width: 5%;
+    height: 5%; }
+  header h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 0%;
+    margin-top: 1%; }
+  header p {
+    width: 75%;
+    position: relative;
+    left: 15%;
+    font-size: 20px; }
+
+#content-l input[type=text], #content-l input[type=email], #content-l #fn input[type=text], #content-l #ln input[type=text], #content-l #main #count select, #content-l #main #count input[type=text], #content-l input[type=submit], #content-r #end input[type=text] {
+  font-size: 14px;
+  padding: 2%;
+  border: 1px solid lightgray;
+  border-radius: 0.2rem;
+  color: gray;
+  outline-color: #9393ff; }
+
+#content-l {
+  position: relative;
+  left: 14%;
+  width: 50%;
+  top: 30px; }
+  #content-l div {
+    margin-bottom: 2%; }
+  #content-l input[type=text], #content-l input[type=email] {
+    width: 93%; }
+  #content-l h2 {
+    font-weight: 600; }
+  #content-l #fn, #content-l #ln {
+    width: 49%;
+    display: inline-block; }
+    #content-l #fn input[type=text], #content-l #ln input[type=text] {
+      width: 90%;
+      padding: 4%; }
+  #content-l label {
+    display: block;
+    padding-bottom: 2%; }
+  #content-l #main {
+    margin-bottom: 0%; }
+    #content-l #main #count {
+      display: inline-block;
+      width: 30%;
+      margin-right: 2.5%; }
+      #content-l #main #count select {
+        width: 100%;
+        padding: 4%; }
+      #content-l #main #count input[type=text] {
+        padding: 4%; }
+  #content-l #check label {
+    display: inline; }
+  #content-l sub {
+    position: relative;
+    bottom: 15px; }
+  #content-l input[type=submit] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    border-radius: 0.3rem; }
+
+#content-r {
+  position: absolute;
+  left: 65%;
+  top: 45%;
+  width: 23%; }
+  #content-r #row h2 {
+    display: inline-block;
+    font-weight: 600; }
+  #content-r #row p {
+    display: inline-block;
+    position: relative;
+    left: 60%;
+    background-color: gray;
+    border-radius: 10rem;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 1%; }
+  #content-r #rows, #content-r #row1 {
+    border: 1px solid lightgray;
+    border-radius: 0.3rem;
+    padding: 1%; }
+    #content-r #rows h3, #content-r #row1 h3 {
+      display: inline-block;
+      font-weight: 500;
+      width: 80%; }
+    #content-r #rows p, #content-r #row1 p {
+      display: inline-block;
+      position: relative;
+      left: 10%; }
+    #content-r #rows sub, #content-r #row1 sub {
+      position: relative;
+      bottom: 20px; }
+  #content-r #row1 {
+    color: limegreen; }
+  #content-r #end {
+    padding: 4%;
+    margin-top: 3%;
+    border: 1px solid lightgrey;
+    border-radius: 0.3rem; }
+    #content-r #end input[type=button] {
+      position: relative;
+      background-color: grey;
+      color: white;
+      padding: 4%;
+      width: 30%; }
+
+/*# sourceMappingURL=sass.css.map */
