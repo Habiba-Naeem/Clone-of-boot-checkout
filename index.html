@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Checkout example for Bootsrap
+        </title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div id="top">
+            <img src="bootstrap-solid.svg">
+            <h2>
+                Checkout form
+            </h2>
+            <p>
+                Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.
+            </p>
+        </div>
+
+        <div id="bilad">
+            <h2>Billing address</h2>
+            <form>
+                <div style="display: inline-block; margin-right: 20%;">
+                    <label  class="text">First Name</label>
+                    <br/>
+                    <input id="fn" type="text">
+                </div>
+                <div style="display: inline-block;">
+                    <label style=" margin-top: 2%;
+                    margin-bottom: 2%;"  class="text">Last Name</label>
+                    <br/>
+                    <input id="ln" type="text">
+                </div>
+                <br/>
+                <label class="text">
+                    Username
+                </label>
+                <br/>
+                <input id="email" type="email" placeholder="Username">
+                
+                <br/>
+                <label  class="text">
+                    Email
+                    <span style="color: lightgray;">(Optional)</span>
+                </label>
+                <br/>
+                <input id="email" type="email" placeholder="you@example.com">
+                <br/>
+                <label>
+                    Address
+                </label>
+                <br/>
+                <input id="add" type="text" placeholder="1234 Main St">
+                <label>
+                    Address 2
+                    <span style="color: lightgray;">(Optional)</span>
+                </label>
+                <br/>
+                <input id="add" type="text" placeholder="Apartment or suite">
+                <div id="count"> 
+                    <label>
+                        Country
+                    </label>
+                    <br/>
+                    <select id="count1">
+                        <option>Choose...</option>
+                        <option>US</option>
+                    </select>    
+                </div>
+                <div id="count">
+                    <label>
+                        State
+                    </label>
+                    <br/>
+                    <select id="count1">
+                        <option>Choose...</option>
+                        <option>California</option>
+                    </select>
+                </div>
+                <div id="count">
+                    <label>
+                        ZIP
+                    </label>
+                    <br/>
+                    <input type="number">
+                </div>
+                <br/>
+                <br/>
+                <hr/>
+                <input type="checkbox">
+                <label>Shipping address is the same as my billing address</label>
+                <br/>
+                <input type="checkbox">
+                <label>Save this information for next time</label>
+                <hr/>
+                <div id="end">
+                    <h2>Payment</h2>
+                    <input type="radio" name="payment">
+                    Credit Card
+                    <br/>
+                    <input type="radio" name="payment">
+                    Debit Card
+                    <br/>
+                    <input type="radio" name="payment">
+                    Paypal
+                    <br/>
+                    <br/>
+
+                    <div style="display: inline-block; margin-right: 20% ;">
+                        <label  class="text">Name on card</label>
+                        <br/>
+                        <input id="nc" type="text"><br/>
+                        
+                    </div>
+                    <div style="display: inline-block;">
+                        <label style=" margin-top: 2%;
+                        margin-bottom: 2%;"  class="text">Credit card number</label>
+                        <br/>
+                        <input id="ccn" type="text">
+                    </div>
+                    <br/>
+                    <sub>Full name as displayed on card</sub>
+                </div>
+                <br/>
+                <div style="display: inline-block; margin-right: 20% ;">
+                    <label  class="text">Expiration</label>
+                    <br/>
+                    <input id="ex" type="text"><br/>
+                    
+                </div>
+                
+                <div style="display: inline-block;">
+                    <label style=" margin-top: 2%;
+                    margin-bottom: 2%;"  class="text">CVV</label>
+                    <br/>
+                    <input id="cvv" type="text">
+                </div>
+                <br/>
+                <hr/>
+
+                <input type="submit" value="Continue to Checkout">
+            </form>
+        </div>
+
+        <div id="cart">
+            <div class="row">
+                <h2 style="display: inline;">Your cart</h2>
+                <p id="no">3</p>
+            </div>
+            <div class="rows">
+                <div class="row1">
+                    <h3>Product name</h3>
+                    <p>$12</p>
+                </div>
+               <div class="row2">
+                <sub>Brief description</sub>
+               </div>                
+            </div>
+
+            <div class="rows">
+                <div class="row1">
+                    <h3>Second product</h3>
+                    <p>$8</p>
+                </div>
+               <div class="row2">
+                <sub>Brief description</sub>
+               </div>                
+            </div>
+
+            <div class="rows">
+                <div class="row1">
+                    <h3>Third product</h3>
+                    <p>$5</p>
+                </div>
+               <div class="row2">
+                <sub>Brief description</sub>
+               </div>                
+            </div>
+
+            <div class="rows-last">
+                <div class="row1">
+                    <h3>Promo Code</h3>
+                    <p>-$5</p>
+                </div>
+               <div class="row2">
+                <sub>EXAMPLE CODE</sub>
+               </div>                
+            </div>
+
+            <div class="rows">
+                <div class="row1">
+                    <h3>Total USD</h3>
+                    <p style="color: black;"><b>$20</b></p>
+                </div>             
+            </div>
+
+        </div>
+    </body>
+</html>
